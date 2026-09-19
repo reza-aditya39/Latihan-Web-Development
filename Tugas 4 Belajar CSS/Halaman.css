@@ -1,0 +1,90 @@
+#Menu {
+background-color: skyblue; 
+    text-align: center; 
+    padding: 10px;
+    margin: 0;
+}
+#Menu a{
+    text-decoration: none; 
+    color: blue; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+#Menu a:hover{
+    background-color: #34495e; 
+    border-radius: 5px;
+}
+
+#Pembuat{
+    font-size: 12px;
+    background-color:blue ;
+    color: white;
+}
+
+#Kiri {
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+#Kiri fieldset{
+    background: linear-gradient(to bottom, skyblue, #f0fdff); 
+    padding: 15px;
+    margin: 0;
+}
+
+#Utama {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #333333;
+    padding: 10px 30px; 
+}
+
+#Utama h3 {
+    color: #2c3e50; 
+    border-bottom: 2px solid #3498db; 
+    padding-bottom: 8px; 
+    margin-bottom: 20px;
+}
+
+#Utama table {
+    font-size: 16px;
+    line-height: 1.8; 
+}
+
+#Utama img {
+    border-radius: 12px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15); 
+    margin-left: 20px; 
+}
+
+#Utama marquee img {
+    margin-right: 15px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Kanan {
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+#Kanan fieldset{
+    background: linear-gradient(to bottom, skyblue, #f0fdff); 
+    padding: 15px;
+    margin: 0;
+}
+
+#Banner {
+    background: linear-gradient(to right, #1cb5e0, #000046); 
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+

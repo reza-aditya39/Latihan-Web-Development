@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .img-header {
+            height: 180px;
+            object-fit: cover;
+        }
+        .Logo {
+            width: 120px;
+        }
+</style>
+</head>
+  <body>
+    
+    <div class="container-fluid p-0">
+      <!-- Header -->
+  <div class="row g-0">
+    <div class="col-12 p-0">
+      <header>
+      <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Gambar/NightStar.jpg" class="d-block w-100 img-header" alt="Night Star">
+    </div>
+    <div class="carousel-item">
+      <img src="Gambar/Atri.jpeg" class="d-block w-100 img-header" alt="Atri">
+    </div>
+    <div class="carousel-item">
+      <img src="Gambar/Typhoeus.jpeg" class="d-block w-100 img-header" alt="Typhoeus Enfield">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </header>
+    </div>
+  </div>
+
+  <!-- Navigasi Menu -->
+  <div class="row g-0 border-bottom shadow-sm">
+    <div class="col-12 p-0">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+            <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="Gambar/Logo_miHoYo.png" class="Logo" alt="Logo Mihoyo">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="MyStudy.html">My Study</a></li>
+              <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="tabel.html">Data Tabel</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold text-primary" href="#" id="loginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login
+                </a>
+  
+    <div class="dropdown-menu dropdown-menu-end p-4 shadow" aria-labelledby="loginDropdown" style="width: 300px;">
+        <h6 class="dropdown-header px-0 text-dark fw-bold mb-2">Silakan Login</h6>
+            <form>
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="nama@email.com">
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                    <button type="button" class="btn btn-secondary btn-sm w-45">Batal</button>
+                    <button type="submit" class="btn btn-primary btn-sm w-45">Submit</button>
+      </div>
+    </form>
+  </div>
+</li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-3">
+      <div class="card shadow-sm">
+    <div class="card-header bg-dark text-white fw-bold">
+      Link Eksternal
+    </div>
+    
+    <div class="list-group list-group-flush">
+      <a href="https://nfacademy.id" target="_blank" class="list-group-item list-group-item-action">NF Academy</a>
+      <a href="https://nurulfikri.ac.id" target="_blank" class="list-group-item list-group-item-action">STT Terpadu Nurul Fikri</a>
+      <a href="https://getbootstrap.com" target="_blank" class="list-group-item list-group-item-action">Bootstrap 5</a>
+      <a href="https://datatables.net" target="_blank" class="list-group-item list-group-item-action">DataTables</a>
+      <a href="https://github.com" target="_blank" class="list-group-item list-group-item-action">GitHub</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-9 p-4">
+        <h3 class="border-bottom pb-2 mb-4">Kumpulan Foto</h3>
+  
+  <!-- Menggunakan Grid System Bootstrap untuk Gallery -->
+  <div class="row g-3"> <!-- g-3 memberikan jarak (gap) antar kotak gambar -->
+    
+    <!-- Kotak Foto 1 -->
+    <div class="col-6 col-md-4">
+      <img src="Gambar/Kucing 1.jpeg" class="img-fluid rounded shadow-sm w-100" alt="Kucing 1">
+    </div>
+    
+    <!-- Kotak Foto 2 -->
+    <div class="col-6 col-md-4">
+      <img src="Gambar/Kucing 2.jpeg" class="img-fluid rounded shadow-sm w-100" alt="Kucing 2">
+    </div>
+    
+    <!-- Kotak Foto 3 -->
+    <div class="col-6 col-md-4">
+      <img src="Gambar/Kucing 3.jpeg" class="img-fluid rounded shadow-sm w-100" alt="Kucing 3">
+    </div>
+    
+    <!-- Kotak Foto 4 -->
+    <div class="col-6 col-md-4">
+      <img src="Gambar/Kucing 4.jpeg" class="img-fluid rounded shadow-sm w-100" alt="Kucing 4">
+    </div>
+    
+    <!-- Kotak Foto 5 -->
+    <div class="col-6 col-md-4">
+      <img src="Gambar/Kucing 5.jpeg" class="img-fluid rounded shadow-sm w-100" alt="Kucing 5">
+    </div>
+
+  </div>
+    </div>
+  </div>
+
+
+
+<div class="row g-0 mt-auto">
+  <div class="col-12">
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-1">Dibuat oleh: <strong>Reza Aditya Pradana</strong> &copy; 2026</p>
+      
+      
+      <div class="social-icons mt-2">
+        <a href="https://www.facebook.com/share/19MTQTCufz/" target="_blank" class="text-white text-decoration-none mx-2 fs-5" title="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/zatakazami39?stkn=MmhxMG1kZTQzaG5r" target="_blank" class="text-white text-decoration-none mx-2 fs-5" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/reza-aditya39" target="_blank" class="text-white text-decoration-none mx-2 fs-5" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
